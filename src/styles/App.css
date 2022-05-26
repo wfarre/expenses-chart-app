@@ -1,0 +1,104 @@
+.header {
+  background-color: hsl(10deg, 79%, 65%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  width: 38%;
+  height: 124px;
+  padding: 0 3%;
+  margin: auto;
+}
+.header__main {
+  color: white;
+}
+.header__main__title {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 14px;
+}
+.header__main__total {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: hsl(27deg, 66%, 92%);
+  width: 100vw;
+  height: 100%;
+}
+
+.spending-section {
+  background-color: white;
+  width: 38%;
+  height: 480px;
+  padding: 40px 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px auto;
+  border-radius: 15px;
+  color: hsl(25deg, 47%, 15%);
+}
+.spending-section__header__title {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+}
+.spending-section__contents {
+  position: relative;
+  width: 100%;
+}
+.spending-section .separator {
+  content: " ";
+  background-color: hsl(28deg, 10%, 53%);
+  height: 1px;
+  width: 100%;
+}
+.spending-section__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.spending-section__footer__total__title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(28deg, 10%, 53%);
+}
+.spending-section__footer__total__result {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+}
+.spending-section__footer__compare {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: right;
+}
+.spending-section__footer__compare__rate {
+  margin: 0;
+}
+.spending-section__footer__compare__month {
+  margin: 0;
+  color: hsl(28deg, 10%, 53%);
+}
+
+.chartDiv {
+  height: 400px;
+  width: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/*# sourceMappingURL=App.css.map */

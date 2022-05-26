@@ -1,0 +1,29 @@
+.header {
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    width: 38%;
+    height: 124px;
+    padding: 0 3%;
+    margin: auto;
+
+    &__main {
+        color: white;
+        &__title {
+            font-size: 16px;
+            font-weight: 400;
+            margin: 0;
+            margin-bottom: 14px;
+        }
+
+        &__total {
+            font-size: 26px;
+            font-weight: 700;
+            margin:0;
+        }
+
+    }
+
+}
