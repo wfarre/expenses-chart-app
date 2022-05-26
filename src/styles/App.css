@@ -29,10 +29,13 @@ body {
   background-color: hsl(27deg, 66%, 92%);
   width: 100vw;
   height: 100%;
+  position: relative;
 }
 
 .spending-section {
-  background-color: white;
+  position: relative;
+  top: 50%;
+  background-color: hsl(33deg, 100%, 98%);
   width: 38%;
   height: 480px;
   padding: 40px 3%;
