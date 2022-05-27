@@ -4,6 +4,7 @@ $secondary-bg-color: hsl(186, 34%, 60%);
 $main-bg-color: hsl(27, 66%, 92%);
 $primary-font-color: hsl(25, 47%, 15%);
 $secondary-font-color: hsl(28, 10%, 53%);
+$bg-color: hsl(34, 100%, 99%);
 
 @import "./header";
 
@@ -110,7 +111,7 @@ body {
     position: absolute;
     top:50%;
     left: 50%;
-    height: fit-content;
+    height: 660px;
     width: 100%;
     transform: translate(-50%,-50%);
     margin-top: auto;
@@ -118,28 +119,7 @@ body {
 }
 
 
-// ### Primary
 
-// - Soft red: hsl(10, 79%, 65%)
-// - Cyan: hsl(186, 34%, 60%)
-
-// ### Neutral
-
-// - Dark brown: hsl(25, 47%, 15%)
-// - Medium brown: hsl(28, 10%, 53%)
-// - Cream: hsl(27, 66%, 92%)
-// - Very pale orange: hsl(33, 100%, 98%)
-
-// ## Typography
-
-// ### Body Copy
-
-// - Font size: 18px
-
-// ### Font
-
-// - Family: [DM Sans](https://fonts.google.com/specimen/DM+Sans)
-// - Weights: 400, 700
 
 
 
