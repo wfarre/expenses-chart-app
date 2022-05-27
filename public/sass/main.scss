@@ -4,7 +4,7 @@ $secondary-bg-color: hsl(186, 34%, 60%);
 $main-bg-color: hsl(27, 66%, 92%);
 $primary-font-color: hsl(25, 47%, 15%);
 $secondary-font-color: hsl(28, 10%, 53%);
-$bg-color: hsl(34, 100%, 99%);
+$bg-color: rgb(254, 252, 247);
 
 @import "./header";
 
@@ -22,7 +22,7 @@ body {
 .spending-section{
     // position: relative;
     // top: 50%;
-    background-color: $primary-bg-color;
+    background-color: blue;
     width: 38%;
     height: calc(520px - 40px);
     padding: 40px 3%;
