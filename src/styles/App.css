@@ -33,7 +33,7 @@ body {
 }
 
 .spending-section {
-  background-color: blue;
+  background-color: hsl(33deg, 100%, 98%);
   width: 38%;
   height: 480px;
   padding: 40px 3%;
